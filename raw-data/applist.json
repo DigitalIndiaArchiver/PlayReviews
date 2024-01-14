@@ -8,5 +8,7 @@
   "in.sahay.gem",
   "gov.gem.sellers",
   "gov.gem.buyer",
-  "com.gem.addressverification"
+  "com.gem.addressverification",
+  "in.ndhm.phr",
+  "com.beneficiaryapp"
 ]
