@@ -13,7 +13,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  download-json-files:
+  extract-play-data:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code

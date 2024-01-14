@@ -93,7 +93,7 @@ def save_app_reviews(app_id: str) -> None:
 
     upto_date = (datetime.today() - timedelta(days=2)).date()
     reviews = extract_all_reviews(app_id, upto_date) if len(existing_reviews) > 0 else extract_all_reviews(app_id)
-    logging.debug('Count of all reviews {count}', len(reviews))
+    logging.debug('Count of all reviews ' + len(reviews))
     all_reviews = remove_duplicates(existing_reviews + reviews)
     all_reviews = sorted(all_reviews, key=lambda x: (datetime.strptime(x["date"], "%Y-%m-%d"), x["id"]), reverse=True)
     with open(review_filename, 'w') as file:

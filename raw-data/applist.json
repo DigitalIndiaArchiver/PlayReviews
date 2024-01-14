@@ -5,5 +5,8 @@
   "com.digilocker.android",
   "in.gov.diksha.app",
   "in.gov.umang.negd.g2c",
-  "in.sahay.gem"
+  "in.sahay.gem",
+  "gov.gem.sellers",
+  "gov.gem.buyer",
+  "com.gem.addressverification"
 ]
