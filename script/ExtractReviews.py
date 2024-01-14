@@ -82,6 +82,7 @@ def save_app_reviews(app_id: str) -> None:
     Returns:
         None: The function does not return any value. It only saves the reviews into a file.
     """
+    logging.DEBUG('Processing app ' + app_id)
     review_filename = '../raw-data/reviews/' + f"Reviews_{app_id}.json"
     existing_reviews = []
 
