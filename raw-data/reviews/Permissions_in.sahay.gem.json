@@ -1,0 +1,32 @@
+{
+    "results": [
+        {
+            "permission": "view Wi-Fi connections",
+            "type": "Wi-Fi connection information"
+        },
+        {
+            "permission": "read phone status and identity",
+            "type": "Phone"
+        },
+        {
+            "permission": "read phone status and identity",
+            "type": "Device ID & call information"
+        },
+        {
+            "permission": "read your text messages (SMS or MMS)",
+            "type": "SMS"
+        },
+        {
+            "permission": "view network connections",
+            "type": "Other"
+        },
+        {
+            "permission": "full network access",
+            "type": "Other"
+        },
+        {
+            "permission": "prevent device from sleeping",
+            "type": "Other"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "results": [
+        {
+            "permission": "modify or delete the contents of your USB storage",
+            "type": "Photos/Media/Files"
+        },
+        {
+            "permission": "read the contents of your USB storage",
+            "type": "Photos/Media/Files"
+        },
+        {
+            "permission": "view Wi-Fi connections",
+            "type": "Wi-Fi connection information"
+        },
+        {
+            "permission": "read your own contact card",
+            "type": "Identity"
+        },
+        {
+            "permission": "find accounts on the device",
+            "type": "Identity"
+        },
+        {
+            "permission": "add or remove accounts",
+            "type": "Identity"
+        },
+        {
+            "permission": "find accounts on the device",
+            "type": "Contacts"
+        },
+        {
+            "permission": "take pictures and videos",
+            "type": "Camera"
+        },
+        {
+            "permission": "modify or delete the contents of your USB storage",
+            "type": "Storage"
+        },
+        {
+            "permission": "read the contents of your USB storage",
+            "type": "Storage"
+        },
+        {
+            "permission": "prevent device from sleeping",
+            "type": "Other"
+        },
+        {
+            "permission": "run at startup",
+            "type": "Other"
+        },
+        {
+            "permission": "read sync settings",
+            "type": "Other"
+        },
+        {
+            "permission": "modify system settings",
+            "type": "Other"
+        },
+        {
+            "permission": "full network access",
+            "type": "Other"
+        },
+        {
+            "permission": "toggle sync on and off",
+            "type": "Other"
+        },
+        {
+            "permission": "send sticky broadcast",
+            "type": "Other"
+        },
+        {
+            "permission": "use accounts on the device",
+            "type": "Other"
+        },
+        {
+            "permission": "create accounts and set passwords",
+            "type": "Other"
+        },
+        {
+            "permission": "view network connections",
+            "type": "Other"
+        }
+    ]
+}

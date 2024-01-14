@@ -1,0 +1,72 @@
+{
+    "results": [
+        {
+            "permission": "find accounts on the device",
+            "type": "Identity"
+        },
+        {
+            "permission": "modify or delete the contents of your USB storage",
+            "type": "Storage"
+        },
+        {
+            "permission": "read the contents of your USB storage",
+            "type": "Storage"
+        },
+        {
+            "permission": "take pictures and videos",
+            "type": "Camera"
+        },
+        {
+            "permission": "modify or delete the contents of your USB storage",
+            "type": "Photos/Media/Files"
+        },
+        {
+            "permission": "read the contents of your USB storage",
+            "type": "Photos/Media/Files"
+        },
+        {
+            "permission": "record audio",
+            "type": "Microphone"
+        },
+        {
+            "permission": "find accounts on the device",
+            "type": "Contacts"
+        },
+        {
+            "permission": "read phone status and identity",
+            "type": "Phone"
+        },
+        {
+            "permission": "read phone status and identity",
+            "type": "Device ID & call information"
+        },
+        {
+            "permission": "change your audio settings",
+            "type": "Other"
+        },
+        {
+            "permission": "use accounts on the device",
+            "type": "Other"
+        },
+        {
+            "permission": "prevent device from sleeping",
+            "type": "Other"
+        },
+        {
+            "permission": "pair with Bluetooth devices",
+            "type": "Other"
+        },
+        {
+            "permission": "run at startup",
+            "type": "Other"
+        },
+        {
+            "permission": "full network access",
+            "type": "Other"
+        },
+        {
+            "permission": "view network connections",
+            "type": "Other"
+        }
+    ]
+}

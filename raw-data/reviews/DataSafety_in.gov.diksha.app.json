@@ -1,0 +1,151 @@
+{
+    "results": {
+        "sharedData": [
+            {
+                "data": "Diagnostics",
+                "optional": false,
+                "purpose": "Analytics",
+                "type": "App info and performance"
+            },
+            {
+                "data": "Other app performance data",
+                "optional": false,
+                "purpose": "Analytics",
+                "type": "App info and performance"
+            },
+            {
+                "data": "Photos",
+                "optional": false,
+                "purpose": "App functionality",
+                "type": "Photos and videos"
+            },
+            {
+                "data": "App interactions",
+                "optional": false,
+                "purpose": "Analytics",
+                "type": "App activity"
+            },
+            {
+                "data": "Other actions",
+                "optional": false,
+                "purpose": "App functionality, Analytics",
+                "type": "App activity"
+            },
+            {
+                "data": "Name",
+                "optional": false,
+                "purpose": "Analytics",
+                "type": "Personal info"
+            },
+            {
+                "data": "Email address",
+                "optional": false,
+                "purpose": "Analytics",
+                "type": "Personal info"
+            },
+            {
+                "data": "Phone number",
+                "optional": false,
+                "purpose": "Analytics",
+                "type": "Personal info"
+            },
+            {
+                "data": "Approximate location",
+                "optional": false,
+                "purpose": "Analytics",
+                "type": "Location"
+            },
+            {
+                "data": "Files and docs",
+                "optional": false,
+                "purpose": "Analytics",
+                "type": "Files and docs"
+            },
+            {
+                "data": "Device or other IDs",
+                "optional": false,
+                "purpose": "Analytics",
+                "type": "Device or other IDs"
+            }
+        ],
+        "collectedData": [
+            {
+                "data": "Diagnostics",
+                "optional": false,
+                "purpose": "Analytics",
+                "type": "App info and performance"
+            },
+            {
+                "data": "Other app performance data",
+                "optional": false,
+                "purpose": "Analytics",
+                "type": "App info and performance"
+            },
+            {
+                "data": "Photos",
+                "optional": true,
+                "purpose": "App functionality",
+                "type": "Photos and videos"
+            },
+            {
+                "data": "App interactions",
+                "optional": false,
+                "purpose": "Analytics",
+                "type": "App activity"
+            },
+            {
+                "data": "Other actions",
+                "optional": true,
+                "purpose": "App functionality, Analytics, Personalization",
+                "type": "App activity"
+            },
+            {
+                "data": "Name",
+                "optional": false,
+                "purpose": "Account management",
+                "type": "Personal info"
+            },
+            {
+                "data": "Email address",
+                "optional": true,
+                "purpose": "Account management",
+                "type": "Personal info"
+            },
+            {
+                "data": "Phone number",
+                "optional": true,
+                "purpose": "Account management",
+                "type": "Personal info"
+            },
+            {
+                "data": "Approximate location",
+                "optional": false,
+                "purpose": "Analytics, Developer communications, Personalization",
+                "type": "Location"
+            },
+            {
+                "data": "Files and docs",
+                "optional": true,
+                "purpose": "App functionality",
+                "type": "Files and docs"
+            },
+            {
+                "data": "Device or other IDs",
+                "optional": false,
+                "purpose": "Analytics",
+                "type": "Device or other IDs"
+            }
+        ],
+        "securityPractices": [
+            {
+                "practice": "Data is encrypted in transit",
+                "description": "Your data is transferred over a secure connection"
+            },
+            {
+                "practice": "You can request that data be deleted",
+                "description": "The developer provides a way for you to request that your data be deleted"
+            }
+        ],
+        "privacyPolicyUrl": "https://static.diksha.gov.in/privacy-policy/terms-of-use.html"
+    }
+}

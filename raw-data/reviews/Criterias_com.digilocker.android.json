@@ -1,8 +1,8 @@
 {
+    "vaf_phase1_file_sharing": 3605,
+    "vaf_phase1_collaborative_editing": 3453,
+    "vaf_phase1_messaging": 3581,
     "vaf_phase1_collaboration": 3458,
-    "vaf_phase1_messaging": 3580,
-    "vaf_phase1_collaborative_editing": 3452,
-    "vaf_phase1_file_sharing": 3604,
     "vaf_phase1_calendar_support": 2887,
     "vaf_never_display_deceptive_ads": 2314,
     "vaf_phase1_location_tagging": 2882,
