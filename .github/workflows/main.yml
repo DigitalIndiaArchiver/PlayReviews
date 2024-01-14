@@ -1,0 +1,33 @@
+name: Extract Google Play reviews
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths: ["raw-data/applist.json"]
+  schedule:
+    - cron:  '29 18 * * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  download-json-files:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4.1.1
+      
+    - name: Extract Reviews
+      run: |
+        mkdir -p raw-data/reviews
+        cd script
+        python ExtractReviews.py
+        
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Add new JSON files"
+        commit_options: '--no-verify'
+        file_pattern: 'raw-data/*.json raw-data/reviews/*.json'
